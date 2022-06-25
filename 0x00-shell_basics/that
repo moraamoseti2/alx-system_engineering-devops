@@ -1,0 +1,642 @@
+Script started on 2022-06-24 09:50:23-07:00 [TERM="xterm" TTY="/dev/pts/14" COLUMNS="192" LINES="50"]
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# cd ..
+sh: 1: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops# vi README.md
+root@489f5285320a:~/alx-system_esh: 2: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# ngineering-devops# cat README.md
+Tasks
+0. Where am I?
+sh: 3: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# sh: 4: Tasks: not found
+# sh: 5: 0.: not found
+# root@489f5285320a:~/alx-system_engineering-devops# cd 0x00-shell_basics
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 0-current_working_directory
+sh: 6: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# sh: 7: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 8: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "My 0 commit"
+sh: 9: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 8991739] My 0 commit
+sh: 10: [master: not found
+#  2 files changed, 3 insertions(+), 1 deletion(-)
+ mode change 100644 => 100755 0x00-shell_basics/0-current_working_directory
+sh: 11: Syntax error: "(" unexpected
+# sh: 11: mode: not found
+#  create mode 100644 0x00-shell_basics/README.md
+sh: 12: create: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Password for 'https://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@github.com':
+sh: 13: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 14: Password: not found
+# remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+sh: 15: remote:: not found
+# remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed forsh: 16: remote:: not found
+#  'https://github.com/moraamoseti2/alx-system_engineering-devops.git/'
+sh: 17: fatal:: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# cd ..
+root@489f5285320a:~/alx-system_engineering-devops# gitconfig --global user.name "mosetimoraamartex@gmail.com"
+sh: 18: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 19: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# bash: gitconfig: command not found
+root@489f5285320a:~/alx-system_esh: 20: bash:: not found
+# ngineering-devops# git config --global user.email "mosetimoraamartex@gmail.com"
+root@489f5285320a:~/alx-system_engineering-devops# git config --global user.name "moraamoseti2"
+sh: 21: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# sh: 22: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# root@489f5285320a:~/alx-system_engineering-devops# git push
+Password for 'https://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@github.com':
+sh: 23: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# sh: 24: Password: not found
+# Enumerating objects: 13, done.
+sh: 25: Enumerating: not found
+# Counting objects: 100% (13/13), done.
+sh: 26: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 26: Delta: not found
+# Compressing objects: 100% (7/7), done.
+sh: 27: Syntax error: "(" unexpected
+# Writing objects: 100% (13/13), 1004 bytes | 1004.00 KiB/s, done.
+sh: 27: Syntax error: "(" unexpected
+# Total 13 (delta 0), reused 0 (delta 0)
+To https://github.com/moraamosetsh: 27: Syntax error: "(" unexpected
+# i2/alx-system_engineering-devops.git
+sh: 27: To: not found
+#  * [new branch]      master -> master
+sh: 28: 0-current_working_directory: not found
+# root@489f5285320a:~/alx-system_engineering-devops# cd 0x00-shell_basics
+root@489f5285320a:~/alx-system_esh: 29: root@489f5285320a:~/alx-system_engineering-devops#: not found
+# ngineering-devops/0x00-shell_basics# vi 1-listit
+sh: 30: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# cat 1-listit
+sh: 31: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# #!/bin/bash
+# ls
+0-current_working_directory  100755  1-listit  2-bring_me_home	3-listfiles  4-listmorefiles  5-listfilesdigitonly  6-firstdirectory  7-movethatfile  master  README.md  that
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 1-listit
+sh: 34: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "Display contsh: 35: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# ent lis of my current directory"
+sh: 36: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master c07fdc4] Display content lis of my current directory
+sh: 37: [master: not found
+#  1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/1-listit
+sh: 38: Syntax error: "(" unexpected
+# sh: 38: create: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 39: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+sh: 40: Password: not found
+# Enumerating objects: 6, done.
+sh: 41: Enumerating: not found
+# Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+sh: 42: Syntax error: "(" unexpected
+# sh: 42: Delta: not found
+# Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 426 bytes | 426.00 KiB/s, done.
+sh: 43: Syntax error: "(" unexpected
+# sh: 43: Syntax error: "(" unexpected
+# Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 43: Syntax error: "(" unexpected
+# sh: 43: To: not found
+#    8991739..c07fdc4  master -> master
+sh: 44: 8991739..c07fdc4: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 2-bring_me_home
+root@489f5285320a:~/alx-system_esh: 45: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# ngineering-devops/0x00-shell_basics# cat 2-bring_me_home
+sh: 46: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# #!/bin/bash
+# echo $HOME
+/root
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 2-bring_me_home
+sh: 49: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 50: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "There is no place like home"
+sh: 51: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 4c47393] There is no place like home
+sh: 52: [master: not found
+#  1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/2-bring_me_home
+sh: 53: Syntax error: "(" unexpected
+# sh: 53: create: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 54: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+sh: 55: Password: not found
+# Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+sh: 56: Enumerating: not found
+# sh: 57: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+sh: 57: Delta: not found
+# sh: 58: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 459 bytes | 459.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+sh: 58: Syntax error: "(" unexpected
+# sh: 58: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 58: To: not found
+#    c07fdc4..4c47393  master -> master
+sh: 59: c07fdc4..4c47393: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 2-bring_me_home
+sh: 60: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 2-bring_me_home
+sh: 61: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "2. There is no place like home"
+sh: 62: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 63: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 0d1c0a5] 2. There is no place like home
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+sh: 64: [master: not found
+# sh: 65: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Password for 'https://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@github.com':
+sh: 65: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 66: Password: not found
+# Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+sh: 67: Enumerating: not found
+# sh: 68: Syntax error: "(" unexpected
+# sh: 68: Delta: not found
+# Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 346 bytes | 346.00 KiB/s, done.
+sh: 69: Syntax error: "(" unexpected
+# sh: 69: Syntax error: "(" unexpected
+# Total 4 (delta 1), reused 0 (delta 0)
+sh: 69: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 69: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+   4c47393..0d1c0a5  master -> master
+sh: 69: To: not found
+# sh: 70: 4c47393..0d1c0a5: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 2-bring_me_home
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 71: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 72: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "2. There is no place like home"
+sh: 73: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 426c5e5] 2. There is no place like home
+sh: 74: [master: not found
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 75: Syntax error: "(" unexpected
+# sh: 75: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+sh: 76: Password: not found
+# Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+sh: 77: Enumerating: not found
+# sh: 78: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 78: Delta: not found
+# Compressing objects: 100% (2/2), done.
+sh: 79: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 340 bytes | 340.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+sh: 79: Syntax error: "(" unexpected
+# sh: 79: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 79: Syntax error: "(" unexpected
+# sh: 79: To: not found
+#    0d1c0a5..426c5e5  master -> master
+sh: 80: 0d1c0a5..426c5e5: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 3-listfiles
+sh: 81: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 3-listfiles
+sh: 82: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#
+sh: 83: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 84: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "3. The long format"
+[master ddc5687] 3. The long format
+sh: 85: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 86: [master: not found
+#  1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/3-listfiles
+sh: 87: Syntax error: "(" unexpected
+# sh: 87: create: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 88: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 6, done.
+sh: 89: Password: not found
+# sh: 90: Enumerating: not found
+# Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+sh: 91: Syntax error: "(" unexpected
+# sh: 91: Delta: not found
+# Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 350 bytes | 350.00 KiB/s, done.
+sh: 92: Syntax error: "(" unexpected
+# sh: 92: Syntax error: "(" unexpected
+# Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 92: Syntax error: "(" unexpected
+# sh: 92: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 92: To: not found
+#    426c5e5..ddc5687  master -> master
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 4-listmorefiles
+sh: 93: 426c5e5..ddc5687: not found
+# sh: 94: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 4-listmorefiles
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 95: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 96: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "4. Hidden files"
+[master 013982c] 4. Hidden files
+sh: 97: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 98: [master: not found
+#  1 file changed, 2 insertions(+)
+sh: 99: Syntax error: "(" unexpected
+#  create mode 100755 0x00-shell_basics/4-listmorefiles
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 99: create: not found
+# sh: 100: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 6, done.
+sh: 101: Password: not found
+# sh: 102: Enumerating: not found
+# Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+sh: 103: Syntax error: "(" unexpected
+# sh: 103: Delta: not found
+# Compressing objects: 100% (2/2), done.
+sh: 104: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 353 bytes | 353.00 KiB/s, done.
+sh: 104: Syntax error: "(" unexpected
+# Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 104: Syntax error: "(" unexpected
+# sh: 104: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+   ddc5687..013982c  master -> master
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_bassh: 104: To: not found
+# sh: 105: ddc5687..013982c: not found
+# ics# vi 4-listmorefiles
+sh: 106: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 4-listmorefiles
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 107: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 108: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "4. Hidden files"
+[master 7f9a369] 4. Hidden files
+sh: 109: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 110: [master: not found
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+sh: 111: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 111: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+sh: 112: Password: not found
+# Enumerating objects: 7, done.
+sh: 113: Enumerating: not found
+# Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+sh: 114: Syntax error: "(" unexpected
+# sh: 114: Delta: not found
+# Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 331 bytes | 331.00 KiB/s, done.
+sh: 115: Syntax error: "(" unexpected
+# sh: 115: Syntax error: "(" unexpected
+# Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 115: Syntax error: "(" unexpected
+# sh: 115: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+   013982c..7f9a369  master -> master
+sh: 115: To: not found
+# sh: 116: 013982c..7f9a369: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 4-listmorefiles
+sh: 117: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@489f5285320a:~/alx-system_esh: 118: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# ngineering-devops/0x00-shell_basics# git commit -m "4. Hidden files"
+sh: 119: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 530d5ea] 4. Hidden files
+sh: 120: [master: not found
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+sh: 121: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 121: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+sh: 122: Password: not found
+# Enumerating objects: 7, done.
+sh: 123: Enumerating: not found
+# Counting objects: 100% (7/7), done.
+sh: 124: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+sh: 124: Delta: not found
+# sh: 125: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 337 bytes | 337.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+sh: 125: Syntax error: "(" unexpected
+# sh: 125: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 125: Syntax error: "(" unexpected
+# sh: 125: To: not found
+#    7f9a369..530d5ea  master -> master
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 4-listmorefiles
+sh: 126: 7f9a369..530d5ea: not found
+# sh: 127: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 4-listmorefiles
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_bassh: 128: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# ics# git add .
+sh: 129: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "4. Hidden files"
+sh: 130: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 9b2f10c] 4. Hidden files
+sh: 131: [master: not found
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+sh: 132: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 132: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 7, done.
+sh: 133: Password: not found
+# sh: 134: Enumerating: not found
+# Counting objects: 100% (7/7), done.
+sh: 135: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 135: Delta: not found
+# Compressing objects: 100% (2/2), done.
+sh: 136: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 337 bytes | 337.00 KiB/s, done.
+sh: 136: Syntax error: "(" unexpected
+# Total 4 (delta 1), reused 0 (delta 0)
+sh: 136: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 136: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 136: To: not found
+#    530d5ea..9b2f10c  master -> master
+sh: 137: 530d5ea..9b2f10c: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# cat 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
+sh: 138: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# cat: 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: No such file or directory
+sh: 139: cat:: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# cat 4-listmorefiles
+#!/bin/bash
+sh: 140: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# # ~ ls -la
+sh: 142: /root: Permission denied
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 4-listmorefiles
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 4-listmorefiles
+sh: 143: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 144: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 145: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "4. Hidden files"
+sh: 146: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master a3aa43b] 4. Hidden files
+sh: 147: [master: not found
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+sh: 148: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 148: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 7, done.
+sh: 149: Password: not found
+# sh: 150: Enumerating: not found
+# Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+sh: 151: Syntax error: "(" unexpected
+# sh: 151: Delta: not found
+# Compressing objects: 100% (2/2), done.
+sh: 152: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 336 bytes | 336.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+sh: 152: Syntax error: "(" unexpected
+# sh: 152: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 152: Syntax error: "(" unexpected
+# sh: 152: To: not found
+#    9b2f10c..a3aa43b  master -> master
+sh: 153: 9b2f10c..a3aa43b: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 5-listfilesdigitonly
+sh: 154: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 5-listfilesdigitonly
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 155: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 156: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "5. I love numbers"
+[master 717f6cf] 5. I love numbers
+sh: 157: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 158: [master: not found
+#  1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_bsh: 159: Syntax error: "(" unexpected
+# asics/5-listfilesdigitonly
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 159: create: not found
+# sh: 160: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 5, done.
+sh: 161: Password: not found
+# sh: 162: Enumerating: not found
+# Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+sh: 163: Syntax error: "(" unexpected
+# sh: 163: Delta: not found
+# Compressing objects: 100% (2/2), done.
+sh: 164: Syntax error: "(" unexpected
+# Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+sh: 164: Syntax error: "(" unexpected
+# sh: 164: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 164: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+   a3aa43b..717f6cf  master -> master
+sh: 164: To: not found
+# sh: 165: a3aa43b..717f6cf: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 4-listmorefiles
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_bassh: 166: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# ics# vi 5-listfilesdigitonly
+sh: 167: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 5-listfilesdigitonly
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_bassh: 168: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# ics# git add .
+sh: 169: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "5. I love numbers"
+sh: 170: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 44ac2fa] 5. I love numbers
+sh: 171: [master: not found
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+sh: 172: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Password for 'https://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@github.com':
+sh: 172: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 173: Password: not found
+# Enumerating objects: 7, done.
+sh: 174: Enumerating: not found
+# Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+sh: 175: Syntax error: "(" unexpected
+# sh: 175: Delta: not found
+# Compressing objects: 100% (2/2), done.
+sh: 176: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 339 bytes | 339.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+sh: 176: Syntax error: "(" unexpected
+# sh: 176: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 176: Syntax error: "(" unexpected
+# sh: 176: To: not found
+#    717f6cf..44ac2fa  master -> master
+sh: 177: 717f6cf..44ac2fa: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 6-firstdirectory
+sh: 178: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 6-firstdirectory
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_bassh: 179: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# ics# git add .
+sh: 180: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m 6. Welcome
+sh: 181: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# error: pathspec 'Welcome' did not match any file(s) known to git
+sh: 182: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "6. Welcome"
+sh: 182: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master 66cd07a] 6. Welcome
+sh: 183: [master: not found
+#  1 file changed, 2 insertions(+)
+sh: 184: Syntax error: "(" unexpected
+#  create mode 100755 0x00-shell_basics/6-firstdirectory
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 184: create: not found
+# sh: 185: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 6, done.
+sh: 186: Password: not found
+# sh: 187: Enumerating: not found
+# Counting objects: 100% (6/6), done.
+sh: 188: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+sh: 188: Delta: not found
+# sh: 189: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 375 bytes | 375.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+sh: 189: Syntax error: "(" unexpected
+# sh: 189: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 189: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+   44ac2fa..66cd07a  master -> master
+sh: 189: To: not found
+# sh: 190: 44ac2fa..66cd07a: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#
+sh: 191: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 6-firstdirectory
+sh: 192: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 6-firstdirectory
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 193: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 194: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "6. Welcome"
+sh: 195: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master df263ec] 6. Welcome
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+sh: 196: [master: not found
+# sh: 197: Syntax error: "(" unexpected
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Password for 'https://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@github.com':
+sh: 197: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 198: Password: not found
+# Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+sh: 199: Enumerating: not found
+# sh: 200: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 200: Delta: not found
+# Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 354 bytes | 354.00 KiB/s, done.
+sh: 201: Syntax error: "(" unexpected
+# sh: 201: Syntax error: "(" unexpected
+# Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 201: Syntax error: "(" unexpected
+# sh: 201: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+   66cd07a..df263ec  master -> master
+sh: 201: To: not found
+# sh: 202: 66cd07a..df263ec: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 7-movethatfile
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 7-movethatfile
+sh: 203: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 204: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "7. Betty in sh: 205: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# my first directory"
+sh: 206: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# [master d420510] 7. Betty in my first directory
+sh: 207: [master: not found
+#  1 file changed, 2 insertions(+)
+sh: 208: Syntax error: "(" unexpected
+#  create mode 100755 0x00-shell_basics/7-movethatfile
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 208: create: not found
+# sh: 209: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 6, done.
+sh: 210: Password: not found
+# sh: 211: Enumerating: not found
+# Counting objects: 100% (6/6), done.
+sh: 212: Syntax error: "(" unexpected
+# Delta compression using up to 2 threads
+sh: 212: Delta: not found
+# Compressing objects: 100% (2/2), done.
+sh: 213: Syntax error: "(" unexpected
+# Writing objects: 100% (4/4), 394 bytes | 394.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+sh: 213: Syntax error: "(" unexpected
+# sh: 213: Syntax error: "(" unexpected
+# remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+sh: 213: Syntax error: "(" unexpected
+# To https://github.com/moraamoseti2/alx-system_engineering-devops.git
+sh: 213: To: not found
+#    df263ec..d420510  master -> master
+sh: 214: df263ec..d420510: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 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
+sh: 215: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# vi 7-movethatfile
+sh: 216: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 7-movethatfile
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+sh: 217: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 218: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "7. Betty in my first directory"
+[master 2ba453f] 7. Betty in my first directory
+sh: 219: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# sh: 220: [master: not found
+#  1 file changed, 1 insertion(+), 1 deletion(-)
+root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics# git push
+sh: 221: Syntax error: "(" unexpected
+# sh: 221: root@489f5285320a:~/alx-system_engineering-devops/0x00-shell_basics#: not found
+# Password for 'https://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@github.com':
+Enumerating objects: 7, done.
+sh: 222: Password: not found
+# sh: 223: Enumerating: not found
+# Counting objects: 100% (7/7), done.
+Delta compression using up to 2 sh: 224: Syntax error: "(" unexpected
+# threads
+sh: 224: Delta: not found
+# Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 374 bytes | 374.00 KiB/s, done.
+sh: 225: Syntax error: "(" unexpected
+# sh: 225: Synta
